@@ -1,5 +1,5 @@
 {
-  "name": "rn-barcode",
+  "name": "@pushpendersingh/rn-barcode",
   "version": "0.1.0",
   "description": "For the react native framework, there is a barcode scanner component.",
   "main": "src/index.js",
@@ -14,7 +14,7 @@
     "scanner",
     "barcodereader",
     "rnbarcode",
-    "rn-barcode"
+    "@pushpendersingh/rn-barcode"
   ],
   "repository": "https://github.com/pushpender-singh-ap/rn-barcode",
   "author": "Pushpender Singh <pushpendersingh694@gmail.com> (https://github.com/pushpender-singh-ap)",
