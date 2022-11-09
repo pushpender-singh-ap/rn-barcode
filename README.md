@@ -2,6 +2,8 @@
 
 For the react native framework, there is a barcode scanner component.
 
+## Please note that this package is only for Android.
+
 ## Installation
 
 ```sh
