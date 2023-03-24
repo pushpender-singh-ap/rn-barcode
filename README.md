@@ -1,46 +1,12 @@
-# @pushpendersingh/rn-barcode
 
-For the react native framework, there is a barcode scanner component.
+# 🚧 🚧 🚧
+## @pushpendersingh/rn-barcode is deprecated.
 
-[![publish](https://github.com/pushpender-singh-ap/rn-barcode/actions/workflows/npm.yml/badge.svg?branch=deploy&event=push)](https://github.com/pushpender-singh-ap/rn-barcode/actions/workflows/npm.yml)
-[![GitHub license](https://img.shields.io/github/license/pushpender-singh-ap/rn-barcode.svg)](https://github.com/pushpender-singh-ap/rn-barcode/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/pushpender-singh-ap/rn-barcode.svg)](https://github.com/pushpender-singh-ap/rn-barcode/issues)
-[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/pushpender-singh-ap/rn-barcode/pulls)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/pushpender-singh-ap/rn-barcode.svg)](https://github.com/pushpender-singh-ap/rn-barcode/pull/)
-[![GitHub contributors](https://img.shields.io/github/contributors/pushpender-singh-ap/rn-barcode.svg)](https://github.com/pushpender-singh-ap/rn-barcode/graphs/contributors/)
-[![NPM Version](https://img.shields.io/npm/v/@pushpendersingh/rn-barcode.svg?style=flat)](https://www.npmjs.com/package/@pushpendersingh/rn-barcode)
-[![GitHub last commit](https://img.shields.io/github/last-commit/pushpender-singh-ap/rn-barcode.svg?style=flat)](https://github.com/pushpender-singh-ap/rn-barcode/commits)
+The @pushpendersingh/rn-barcode package is designed specifically for Android devices and provides reliable barcode scanning functionality and new [@pushpendersingh/react-native-scanner](https://github.com/pushpender-singh-ap/react-native-scanner) package, which supports the latest Fabric Native architecture for both Android and iOS platforms. This cutting-edge package offers even more advanced features and improved performance, making it the perfect choice for developers who want to deliver fast and accurate scanning capabilities to their users.
 
-## Please note that this package is only for Android.
+@pushpendersingh/rn-barcode is now deprecated in favor of [@pushpendersingh/react-native-scanner](https://github.com/pushpender-singh-ap/react-native-scanner).
 
-## Installation
+<br />
+<br />
 
-```sh
-npm install @pushpendersingh/rn-barcode
-```
-## Usage
-
-```javascript
-import RnBarcodeScannerView from '@pushpendersingh/rn-barcode';
-
-const scanner = () => {
-
-    const onBarCodeRead = async (scanResult) => {
-        console.log("scan result", scanResult)
-    }
-
-    return (
-      <RnBarcodeScannerView
-          onBarCodeRead={onBarCodeRead}
-          style={{ flex: 1 }}
-          torchMode={"off"}
-          cameraType={"back"}
-        />
-    );
-
-}
-```
-
-## License
-
-MIT
+> You can find the old code of @pushpendersingh/rn-barcode [here](https://github.com/pushpender-singh-ap/rn-barcode/tree/master).
